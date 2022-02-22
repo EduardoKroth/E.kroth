@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'lobster';
+    src: url('../fontes/Lobster-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #04032c;
+    color: white;
+}
+
+.menu-fundo {
+    width: 100%;
+    box-shadow: 3px 3px 4px black;
+}
+
+nav {
+    position: absolute;
+    right: 100px;
+    padding: 6px;
+    
+    
+}
+
+nav > a { 
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    background-color: #1713eb80;
+    border-radius: 0px 0px 10px 10px;
+    transition-duration: 0.5s;
+    
+}
+
+.sobre {
+    width: 100%;
+    box-shadow: 3px 3px 4px black;
+}
+
+.final {
+    width: 100%;
+}

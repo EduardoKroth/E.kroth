@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>E.kroth - Contato</title>
+
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif; background-color: #1b65ae;}
+        .content {display: flex;justify-content: center}
+        .contato{width: 100%;max-width: 500px;}
+        .form{display: flex;flex-direction: column;}
+        .field {padding: 10px;margin-bottom: 15px;border: 1px solid #DDD;border-radius: 5px;font-family: Arial, Helvetica, sans-serif;font-size: 16px;}
+        .contato{width: 100%;max-width: 500px; padding: 300px;}
+        * {
+            padding: 0px;
+            margin: 0px;
+}
+        nav {
+            background-color: white;
+            padding: 20px 0px;
+            text-align: right;
+}
+        nav > a {
+            color: black;
+         text-decoration: none;
+         margin-left: 30px;
+}
+        nav > a:hover {
+            color: wheat;
+            background-color: #1b65ae;
+            border-radius: 10px;
+            padding: 17px;
+            transition-duration: .5s;
+}
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="home.html">HOME</a>
+            <a href="contato.html">Contatos</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="sobre.html">Sobre</a>
+        </nav>
+    </header>
+    <section class="content">
+        <div class="contato">
+            <h3>Contato</h3>
+            <form class="form" method="POST" action="./email.php">
+                <input class="field" name="name" placeholder="Nome">
+                <input class="field" name="name" placeholder="E-mail">
+                <textarea class="field" name="message" placeholder="Digite sua mensagem aqui."></textarea>
+                <input class="field" type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
